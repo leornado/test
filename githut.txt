@@ -1,0 +1,2 @@
+在github的提交框标题中可以使用 # + issue编号（如:xxx #1）的形式
+要关闭issue则可以写成 xxx fix #1 的形式
