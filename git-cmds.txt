@@ -2,5 +2,6 @@ git add <-A, fileName>
 git commit -m
 git status
 git log
+// git rest 前不在版本控制范围内的本地文件在rest后不会被删除，仍然保留，但已经在控制范围的文件无论是新增还是修改都会丢失
 git reset --hard <version from git log>
 git reflog
