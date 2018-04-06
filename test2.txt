@@ -5,3 +5,4 @@ add line by 1 second time
 add line by 2 second time
 fixed a bug
 before change to bug2
+fixed a bug3
