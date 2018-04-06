@@ -1,0 +1,6 @@
+git add <-A, fileName>
+git commit -m
+git status
+git log
+git reset --hard <version from git log>
+git reflog
