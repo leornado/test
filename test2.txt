@@ -1,4 +1,5 @@
 大家好！
 才是真的好！
 add line by 2
+add line by 1 second time
 add line by 2 second time
