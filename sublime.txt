@@ -1,0 +1,10 @@
+sublime.log_commands(True)
+ctrl + [
+ctrl + ]
+ctrl + shift + a
+ctrl + l
+ctrl + shift + k
+
+https://raw.githubusercontent.com/fayou147/GitOrder/master/json/channel_v3.json
+
+httprequester 选中url 按alt+ctrl+r

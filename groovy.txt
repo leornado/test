@@ -1,0 +1,40 @@
+只有双引号定义的字符串能用${}替换变量
+
+def arr = [1, 2]
+arr << '123'
+
+def map = ['a':1, 'b':2]
+
+
+
+println({ val -> it = 789; [val, it] }())
+println({ it -> it = 777; [it] }())
+
+def itemA = 123
+println({ ++itemA }())
+println({ -> ++itemA }())
+println({ val -> ++val }(itemA))
+method2({ ++itemA }, 1)
+method2({ ++it }, 1)
+method2({ val -> ++it }, 1)
+
+
+
+
+
+public class A {
+    private String a;
+    private int b;
+
+    def access(location, weight, fragile) {
+        println "Received fragile? $fragile,weight: $weight,loc:$location"
+    }
+}
+
+def robot = new A(b: 3, a: '123')
+println("a = $robot.a , b = $robot.b")
+
+
+robot.access x: 30, y: 20, z: 10, 50, true
+robot.access 50, true, x: 30, y: 20, z: 10 //可以修改参数顺序
+robot.access true, x: 30, y: 20, z: 10, 50 //可以修改参数顺序
